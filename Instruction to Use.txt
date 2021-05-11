@@ -1,0 +1,63 @@
+
+
+
+                 ========= SMART HOPITAL E-CARD SYSTEM ========
+
+
+
+
+1.You need to open phpmyadmin and make four table in registration database.
+                                                           -------------------------------------------
+	1.users
+	2.report_information
+	3.hospital_information
+	4.personal_detail
+
+	1) In users there are 6 columns 
+		1.username = datatype varchar
+		2.fullname = datatype text
+		3.email = datatype varchar
+		4.password = datatype varchar
+		5.image = datatype varchar
+		6.phone = datatype varchar
+
+	
+	2) In report_information there are 4 columns 
+		1.username = datatype varchar
+		2.report_name = datatype text
+		3.reports = datatype varchar
+		4.date = datatype date
+
+	
+	3) In hospital_information there are 4 columns 
+		1.username = datatype varchar
+		2.hospital_name = datatype text
+		3.hospital_city = datatype text
+		4.date = datatype date
+
+	
+	4) In personal_detail there are 11 columns 
+		1.username = datatype varchar
+		2.gender = datatype text
+		3.guardian_name = datatype text
+		4.guardian_no = datatype varchar	
+		5.permanent_address = datatype varchar
+		6.local_address = datatype varchar
+		7.aadhar_no = datatype varchar
+		8.dob = datatype date
+		9.height = datatype varchar
+		10.weight = datatype varchar
+		11.blood_group = datatype text
+
+After created tables you need to put this whole folder in the htdocs of Xampp.
+ALL FOLDER WHICH ARE IN THIS FOLDER IS VERY IMPORTANT IS ANY ONE IS MISS I WILL CAN'T WORK PROPERLY.
+
+
+PREPARE BY:
+
+     			MARWADI VIKAS
+			BHARTIYA TIRTH
+			MISTRY ADNAN
+
+
+	                                 ========== CHARUSAT UNIVERSITY ==========

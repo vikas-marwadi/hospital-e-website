@@ -1,0 +1,76 @@
+*{
+  font-size: 25px;
+  font-family: vardana;
+}
+
+body{
+    background-image: url("../Images/hospital.jpg");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+
+}
+
+.container {
+    border-radius: 5px;
+    background-color: rgba(23,23,23,0.5);
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    color: white;
+  }
+
+.heading
+{
+  text-align: center;
+  font-size: 60px;
+  font-family: lucida;
+  text-decoration:underline;
+
+}
+
+.label{
+    width: 200px;
+    text-align: right;
+}
+
+.input{
+    width: 300px;
+}
+
+
+
+  /* Style inputs */
+input[type=text],[type=number], select, textarea, [type=tel],[type=date]{
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    resize: vertical;
+    border-radius: 10px;
+    color: black; 
+  }
+  
+input[type=number]{
+  width: 40%;
+}
+
+  button[type=submit],[type=reset] {
+    background-color: #4CAF92;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    color: black;
+  }
+  
+  button[type=submit]:hover,[type=reset]:hover {
+    background-color: #4CAF49;
+  }
+

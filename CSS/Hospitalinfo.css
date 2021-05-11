@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lemonada|Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bitter|Lemonada|Pacifico&display=swap');
+
+
+body
+{
+  font-family: 'Bitter', cursive;
+  margin:0;
+  padding: 50px;
+  
+  background-image: url(hospital.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat; 
+  background-position: center;
+
+}
+.heading
+{
+  font-family: 'Bitter';
+  font-size: 40px;
+}
+.container {
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+
+div
+{
+  width: 70%;
+  height: 100%;
+  border-radius: 10px;
+}
+.input
+{
+  border-radius: 7px;
+  width: 380px;
+  height: 53px;
+  padding: 10px;
+  margin: 5px auto ;
+  outline: none;
+  font-size: 19px;
+  font-family: 'Bitter';
+}
+.inputdate
+{
+  border-radius: 7px;
+  width: 220px;
+ 
+  padding: 10px;
+  margin: 5px auto ;
+  outline: none;
+  font-size: 19px;
+  font-family: 'Bitter';
+}
+
+#blood
+{
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+  padding: 5px;
+  margin: 5px auto ;
+  outline:none; 
+  font-family: 'Bitter';
+}
+.label
+{
+  font-family: 'Bitter';
+}
+h1
+{
+  font-family: 'Bitter';
+  text-align: center;
+}
+.button
+{
+  box-shadow: 0px 10px 14px -7px #276873;
+  background:linear-gradient(to bottom, #16222A 0%, #3A6073 51%);
+  background-color:#599bb3;
+  border-radius:15px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:12px;
+  font-weight:bold;
+  padding:10px 30px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #3d768a;
+  outline: none;
+}
+.button:hover
+{
+  background:linear-gradient(to bottom, #525a69 5%, #599bb3 100%);
+  background-color:#408c99;
+    outline: none;
+}
